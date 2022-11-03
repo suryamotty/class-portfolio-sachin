@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fasthand&family=Lato:ital,wght@1,300&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+
+
+body{
+    text-align: center;
+    margin:0;
+    background-image:url("https://thumbs.dreamstime.com/b/abstract-autumn-background-beautiful-leaves-texture-34325133.jpg") ;
+    background-size: cover;
+}
+.menu{
+    position: fixed;
+    background-color: blueviolet;
+    width:100%;
+    margin-top: 0;
+    padding: 20px;
+}
+.links{
+    display: inline;
+    padding: 30px;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    /* text-shadow: 2px 2px blue; */
+}
+
+/* pseudo class => selector(id, class name, tagname etc..): pseudo-class{ property: value} */
+
+a:hover{
+    font-size: 20px;
+    color:black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.profile{
+    margin-top: 70px;
+}
+#name{
+    font-family: 'Fasthand', cursive;
+    font-size: 40px;
+}
+#welcome{
+    background: linear-gradient(to bottom right,aqua,rgb(79, 221, 79),royalblue,rgb(87, 87, 236));
+}
+.line{
+    height: 5px;
+    width: 70px;
+    background-color: black;
+    margin-right:auto;
+    margin-left: auto;
+}
+.contact_1 a{
+    color:black;
+}
+.contact_1 h3{
+    display: inline;
+}
